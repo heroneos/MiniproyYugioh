@@ -1,0 +1,37 @@
+/*Document CSS*/
+
+:root {
+    --primary-red : #BB3944;
+    --white: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-red);
+    color: var(--white);
+    text-align: center;
+    font-family: Arial;
+    margin: 25px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.marcojaden {
+    float: left;
+    align-items: left;
+    width: 20%;
+    height: 20%;
+    border: 10px solid var(--white);
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.regresar {
+    color: var(--white);
+    text-decoration: none;
+}

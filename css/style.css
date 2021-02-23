@@ -1,0 +1,71 @@
+/*Document CSS*/
+/* custom properties */
+:root { 
+    --primary-blue: #4A98C9;
+    --secondary-black: #332C22;
+    --white: #FFFFFF;
+    --size-title: 40px;
+    --size-title-mobile: 30px;
+    --body: 18px;
+    --body-mobile: 14px;
+    --card-unit: 24px;
+    --card-unit-mobile: 15px;
+    --font-principal: 'Poiret One', cursive;
+  }
+
+
+body {
+    text-align: center;
+    background-color: var(--primary-blue);
+}
+
+h1, h2 {
+    font-size: var(--size-title-mobile);
+    font-family: var(--font-principal);
+}
+
+.cardsize {
+    width: 15%;
+    height: 15%;
+}
+
+.chosentext {
+  color: var(--white);
+}
+
+.margen1 {
+  margin-top: 150px;
+}
+
+/* header section */
+.header {
+    background-image: url('../assets/images/backgrounds/skyscreaper2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+  }
+
+  .header .header-layer {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+
+  /* our products section */
+.our-products.main-title {
+    background-color: var(--primary-blue);
+  }
+
+  .main-title .wrapper-title-img {
+    position: relative;
+  }
+
+  .main-title .wrapper-title-img .shape-title {
+    background-color: var(--secondary-black);
+    color: var(--primary-blue);
+    border-radius: 0px 0px 75px 75px;
+    height: 98px;
+    padding: 10px 20px;
+    text-align: center;
+  }

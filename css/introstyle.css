@@ -1,0 +1,21 @@
+/* Document CSS */
+
+body {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    font-family: Impact;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.regresar {
+    color: var(--white);
+    text-decoration: none;
+}
